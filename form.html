@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <head>
+      <title>nl.roshanravan - form validation</title>
+      <head>
+        <link rel="stylesheet" href="form.css" />
+      </head>
+    </head>
+    <div class="container">
+      <div class="header">
+        <h2>حساب کاربری</h2>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">نام کاربری</label>
+          <input type="text" id="username" />
+          <small></small>
+        </div>
+        <div class="form-control">
+          <label for="username">ایمیل</label>
+          <input type="email" id="email" />
+          <small></small>
+        </div>
+        <div class="form-control">
+          <label for="username">رمز عبور</label>
+          <input type="password" id="password" />
+          <!-- اگر خطایی بود نمایش بده بردر بشه قرمز و زیر باکس با قرمز خطا رو بنویسه -->
+          <small></small>
+        </div>
+        <div class="form-control">
+          <label for="username">تکرار رمز عبور</label>
+          <input type="password" id="password2" />
+          <small></small>
+        </div>
+        <button>عضویت</button>
+      </form>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>
